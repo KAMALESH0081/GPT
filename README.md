@@ -1,7 +1,7 @@
-# 🧠 Sentence-Level GPT from Scratch
+#  Sentence-Level GPT from Scratch
 
 A lightweight, custom-built GPT-like Transformer language model trained from scratch on 85,000 English sentences.  
-Utilizes a BERT tokenizer and includes full training, inference etc in a single Jupyter Notebook.
+Utilizes a BERT tokenizer and includes full training, inference, and evaluation in a single Jupyter Notebook.
 
 ---
 
@@ -17,20 +17,14 @@ These files will be filled in future updates to transition toward a clean, produ
 
 ---
 
-## 🚀 Features
+##  Features
 
 - ✅ Built-from-scratch GPT-style model (decoder-only Transformer)
-- 🧠 3.5M parameters
+- 🧠 ~3.5 million parameters
 - 📚 Trained on 85,000 natural English sentences
 - 🔤 BERT tokenizer for subword-level vocabulary
-- 🗂️ Modular Python scripts planned
+- 🗂️ Modular Python scripts planned (`model.py`, `train.py`, etc.)
+- 🖥️ Gradio-based web UI will be added for simple and interactive inference
 
 ---
-## 🗂️ File Overview
 
-| File / Folder              | Description                                           |
-|----------------------------|-------------------------------------------------------|
-| `gpt_sentencemodel.ipynb`  | Complete implementation and training flow             |
-| `model.py`                 | *(To be added)* Model architecture definition         |
-| `train.py`                 | *(To be added)* Training loop and validation logic    |
-| `utils.py`                 | *(To be added)* Tokenization, dataset prep, etc.      |
