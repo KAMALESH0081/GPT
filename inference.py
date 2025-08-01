@@ -42,4 +42,4 @@ def run_validation(model, k, custom_tokenizer, max_len, device, print_msg):
 
     model_out = decode(model, max_len, device, k)
     model_out_text = custom_tokenizer.decode(model_out.detach().cpu().numpy(), skip_special_tokens=True)
-    print_msg(f"{'PREDICTED:':>12}{model_out_text}\n{'-'*console_width}")
+    print_msg(f"{'GENERATED:':>12}{model_out_text}\n{'-'*console_width}")
